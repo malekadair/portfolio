@@ -55,11 +55,23 @@ table {
 
 header {
     background-color: #515C96;
+    padding: 15px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .face {
     border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about {
@@ -82,13 +94,19 @@ footer {
 }
 h1 {
     color: white;
+    font-size: 60px;
 }
 
 h2 {
     color: white;
-
+    font-size: 30px;
+    margin-left: 2px;
 }
 
 h3 {
-
+    
 }
+
+@media screen and (max-width: 1020px) { /* Large Desktop */ }
+@media screen and (max-width: 780px) { /* tablet */ }
+@media screen and (max-width: 480px) { /* mobile */ }
