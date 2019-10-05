@@ -67,8 +67,8 @@ header {
 
 .face {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
 }
 
 main {
@@ -80,6 +80,8 @@ main {
 
 .about {
     background-color: white;
+    max-width: 800px;
+    min-width: 400px;
     
 }
 .about-content {
@@ -98,16 +100,18 @@ main {
 
 .project-container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: space-around;
-    max-width: 500px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1000px;
 }
 
 .projects-content {
     background-color: white;
     display: flex;
-    max-width: 300px;
+    width: 350px;
+    padding: 15px;
 }
 
 .screenshots {
@@ -115,6 +119,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 5px;
     flex: 1;
 }
 .screenshot {
@@ -127,6 +132,7 @@ main {
     justify-content: space-around;
     align-items: center;
     flex: 1;
+    margin: 5px;
 }
 
 .project-btns {
@@ -136,11 +142,16 @@ main {
 }
 
 .project-btn {
-
+    background-color: rgba(81, 92, 150, 0.08);
+    width: 125px;
+    height: 30px;
+    color: #515C96;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 600;
 }
 .content-container {
-    max-width: 800px;
-    min-width: 400px;
+  
 
     border-radius: 10px;
     margin: 10px 30px;
