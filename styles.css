@@ -104,7 +104,8 @@ main {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 840px;
+    margin: 30px;
 }
 
 .projects-content {
@@ -154,7 +155,7 @@ main {
   
 
     border-radius: 10px;
-    margin: 10px 30px;
+    margin: 10px 20px;
 }
 
 footer {
