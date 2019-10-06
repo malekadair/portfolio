@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Esteban&display=swap" rel="stylesheet">
 
     <link rel="icon" href="assets/8-ball.png" type="image/icon" />
     <title>Malek's Portfolio</title>
@@ -12,9 +13,7 @@
 </head>
 
 <body>
-    <nav>
-
-    </nav>
+    
 
     <header>
         <!-- Boom Headshot, "Hi my name is Malek" -->
@@ -25,18 +24,28 @@
         </section>
         <div> </div>
     </header>
+    <nav>
+        <ul class="nav-bar">
+            <li> </li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li> </li>
+
+        </ul>
+    </nav>
     <div class="fade1"></div>
     <main>
         <!-- About me and Projects -->
         
-        <div class="about">
+        <div class="about" id="about">
             <h3>A bit about me:</h3>
             <div class="content-container about-content">
                 <p>I feel that I've always had the mind of a developer but have never had the opportunity to "develop" my skills enough to be dangerous until diving head-first into Thinkful’s bootcamp. When I'm not coding, you'll likely find me playing pool, mountain biking, or cleaning up after my dog. Each challenging in its own way. These challenges are what drive my curiosity.</p>
             </div>
         </div>  
         <div class="fade2"></div>
-        <div class="projects">
+        <div class="projects" id="projects">
             <h3>Some projects of mine:</h3>
             <section class="project-container">
                 <div class="content-container projects-content">
@@ -106,7 +115,7 @@
     <footer>
         <!-- GH, LI, and Mail Logos linking to appropriate pages -->
         <h3>Contact Me:</h3>
-        <section class="contact">
+        <section class="contact" id="contact">
             <a class="logo" href="https://github.com/malekadair" target="_blank">
                 <img class ="github-logo" src="assets/github-logo.png" alt="GitHub's Octo-Cat Logo." width="200" height="150">
                 <p>malekadair</p>
