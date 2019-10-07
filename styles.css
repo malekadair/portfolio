@@ -80,12 +80,11 @@ nav {
     position: sticky;
     top: 0;
     background-color: #515C96;
-    padding: 20px 100px;
+    padding: 20px 10px;
 }
 
 .nav-bar {
     display: flex;
-
     align-items: center;
     justify-content: space-around;
 }
@@ -93,7 +92,7 @@ nav {
 .nav-bar a {
     color: white;
     font-family: 'Montserrat', sans-serif; 
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -279,11 +278,14 @@ font-family: 'Mont', sans-serif;
         height: 150px;
         width: 150px;
     }
+
+    .nav-bar a {
+        font-size: 20px;
+    }
     
-    
-    
-    
-    
+    nav {
+        padding: 20px 100px;
+    }
     
     
     .contact {
