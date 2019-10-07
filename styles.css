@@ -80,11 +80,12 @@ nav {
     position: sticky;
     top: 0;
     background-color: #515C96;
-    padding: 20px 0;
+    padding: 20px 100px;
 }
 
 .nav-bar {
     display: flex;
+
     align-items: center;
     justify-content: space-around;
 }
@@ -169,15 +170,23 @@ main {
     justify-content: space-evenly;
 }
 
+.project-btns a {
+    text-decoration: none;
+}
+
 .project-btn {
     background-color: rgba(81, 92, 150, 0.08);
     width: 125px;
-    height: 30px;
+    height: 40px;
     color: #515C96;
     margin: 10px;
+    padding: 10px;
     border-radius: 5px;
+    border: 1px solid #515C96;
+    text-align: center;
     font-weight: 600;
 }
+
 .content-container {
     border-radius: 10px;
     margin: 10px 20px;
@@ -207,19 +216,19 @@ footer a {
 }
 
 .logo {
-    margin: 10px;
+    margin: 15px;
 }
 
 h1 {
     color: white;
-    font-size: 60px;
+    font-size: 55px;
     font-family: 'Esteban', sans-serif;
     font-weight: 500;
 }
 
 h2 {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 2px;
     font-family: 'Montserrat', sans-serif; 
     font-weight: 800;
@@ -237,9 +246,8 @@ h3 {
 }
 
 h4 {
-    font-weight: 800;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif; 
-    font-weight: 500;
 
 }
 
@@ -267,7 +275,10 @@ font-family: 'Mont', sans-serif;
 */
 
 @media screen and (min-width: 700px) { /* tablet */ 
-    
+    .face {
+        height: 150px;
+        width: 150px;
+    }
     
     
     
@@ -278,5 +289,11 @@ font-family: 'Mont', sans-serif;
     .contact {
         flex-direction: row;
         width: 750px;
+    }
+
+    h1 {
+        font-size: 65px;
+        font-family: 'Esteban', sans-serif;
+        font-weight: 500;
     }
 }
