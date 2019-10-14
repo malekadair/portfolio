@@ -109,7 +109,7 @@ main {
 .about {
 	background-color: white;
 	max-width: 800px;
-	min-width: 400px;
+	min-width: 300px;
 	margin-top: 60px;
 }
 .about-content {
@@ -132,7 +132,7 @@ main {
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	max-width: 840px;
-	margin: 30px;
+	/* margin: 30px; */
 }
 
 .projects-content {
@@ -197,7 +197,7 @@ main {
 
 .content-container {
 	border-radius: 10px;
-	margin: 10px 20px;
+	/* margin: 10px 20px; */
 }
 
 footer {
@@ -290,6 +290,9 @@ h4 {
 		width: 145px;
 	}
 	
+	.about {
+		min-width: 400;
+	}
 	.contact {
 		flex-direction: row;
 		width: 750px;
