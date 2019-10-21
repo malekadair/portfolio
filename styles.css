@@ -129,7 +129,7 @@ main {
 .project-container {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	max-width: 840px;
 	/* margin: 30px; */
