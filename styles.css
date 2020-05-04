@@ -231,10 +231,10 @@ main {
   flex: 1;
 }
 .screenshot {
+  object-fit: cover;
   width: 145px;
   height: 145px;
   margin: 5px 0px;
-  object-fit: cover;
 }
 
 .project-stuff {
