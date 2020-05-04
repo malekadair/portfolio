@@ -332,8 +332,9 @@ h3 {
 }
 
 h4 {
-  font-weight: 600;
+  font-weight: 800;
   font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
 .fade1 {
