@@ -1,155 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Esteban&display=swap" rel="stylesheet">
-	<link rel="icon" href="assets/m-icon.png" type="image/icon" />
-	<title>Malek's Portfolio</title>
-	<link href="styles.css" rel="stylesheet" type="text/css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Esteban&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/m-icon.png" type="image/icon" />
+    <title>Malek's Portfolio</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-	<header>
-		<!-- Boom Headshot, "Hi my name is Malek" -->
-		<img class ="face" src="assets/headshot.jpeg" alt="My lovely headshot.">
-		<section class="greeting">
-			<h2>My name is</h2>
-			<h1><span class="firstName">Malek.</span> <span class="lastName" hidden>Haj-Hussein.</span></h1>
-		</section>
-		<div class="space"> </div>
-	</header>
-	<nav>
-		<ul class="nav-bar">
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#contact">Contact Me</a></li>
-		</ul>
-	</nav>
-	<div class="fade1"></div>
-	<main>
-		<!-- About me and Projects -->
-		<div class="about" id="about">
-			<h3>A bit about me:</h3>
-			<section class="content-container about-content">
-				<p>I feel that I've always had the mind of a developer but have never had the opportunity to "develop" my skills enough to be dangerous until diving head-first into Thinkful’s bootcamp. I look forward to the future of working on a team alongside other great developers. What better atmosphere to continue growing and learning from others?<br><br>When I'm not coding, you'll likely find me playing pool, mountain biking, or working on side projects. Each challenging in its own way. These challenges are what drive my passion for continuous growth.</p>
-			</section>
-		</div>  
-		<div class="fade2"></div>
-		<div class="projects" id="projects">
-			<h3>Some projects of mine:</h3>
+  <body>
+    <header>
+      <!-- Boom Headshot, "Hi my name is Malek" -->
+      <img class="face" src="assets/headshot.jpeg" alt="My lovely headshot." />
+      <section class="greeting">
+        <h2>My name is</h2>
+        <h1>
+          <span class="firstName">Malek.</span>
+          <span class="lastName" hidden>Haj-Hussein.</span>
+        </h1>
+      </section>
+      <div class="space"></div>
+    </header>
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+    <div class="fade1"></div>
+    <main>
+      <!-- About me and Projects -->
+      <div class="about" id="about">
+        <section class="content-container about-content">
+          <h3>A bit about me:</h3>
+          <p>
+            I feel that I've always had the mind of a developer but have never
+            had the opportunity to "develop" my skills enough to be dangerous
+            until diving head-first into Thinkful’s bootcamp. I look forward to
+            the future of working on a team alongside other great developers.
+            What better atmosphere to continue growing and learning from
+            others?<br /><br />When I'm not coding, you'll likely find me
+            playing pool, mountain biking, or working on side projects. Each
+            challenging in its own way. These challenges are what drive my
+            passion for continuous growth.
+          </p>
+        </section>
+      </div>
+      <div class="fade2"></div>
+      <div class="projects" id="projects">
+        <h3>Some projects of mine:</h3>
 
-				<section class="project-container">
-								<!-- GottaLotto -->
-			<section class="content-container projects-content">
-					<div class="screenshots"> 
-						<img class ="screenshot" src="assets/gottalotto-home.png" alt="GottaLotto Homepage" >
-						<img class ="screenshot" src="assets/gottalotto-winners.png" alt="Most recent GottaLotto winners." >
-					</div>   
-					<div class="project-stuff">
-						<h4>GottaLotto</h4>
-						<p>Do you enjoy playing the lottery? GottaLotto allows you to make guesses at the upcoming powerball for free!</p>
-						<div class="project-btns">
-							<a class="project-btn repo-btn" href="https://github.com/gracebodur/gottalotto-client" target="_blank">
-								Client Repo
-							</a>
-							<a class="project-btn repo-btn" href="https://github.com/gracebodur/gottalotto-api" target="_blank">
-								Server Repo
-							</a>
-							<a class="project-btn live-btn" href="https://malekandgrace-gottalotto.now.sh/" target="_blank">
-								Live Project
-							</a>
-						</div>    
-					</div>
-				</section>
-	<!-- TournEase -->
-					<section class="content-container projects-content">
-						<div class="screenshots"> 
-							<img class ="screenshot" src="assets/tournease.png" alt="TournEase Tournament-List page" >
-							<img class ="screenshot" src="assets/tournease-create.png" alt="Create Tournament Form" >
-						</div>   
-						<div class="project-stuff">
-							<h4>TournEase</h4>
-							<p>Whether you're a tournament director or a player, TournEase makes pool tournaments easier. Create and find tournaments in one place.</p>
-							<div class="project-btns">
-								<a class="project-btn repo-btn" href="https://github.com/malekadair/tournease-client" target="_blank">
-									Client Repo
-								</a>
-								<a class="project-btn repo-btn" href="https://github.com/malekadair/tournease-server" target="_blank">
-									Server Repo
-								</a>
-								<a class="project-btn live-btn" href="https://tournease-client.malekadair.now.sh/" target="_blank">
-									Live Project
-								</a>
-							</div>    
-						</div>
-					</section>
-	<!-- BarHop -->
-					<section class="content-container projects-content">
-						<div class="screenshots"> 
-							<img class ="screenshot" src="assets/home.png" alt="A screenshot of the Barhop's home screen." >
-							<img class ="screenshot" src="assets/results-mobile.png" alt="A screenshot of the nearby bar results." >
-						</div>   
-						<div class="project-stuff">
-							<h4>Barhop</h4>
-							<p>This app allows the user to easily locate and navigate to nearby bars based on a specific price point. Results are displayed based on distance (nearest to furthest) from user's coordinates.</p>
-							<div class="project-btns">
-								<a class="project-btn repo-btn" href="https://github.com/malekadair/barhop.git" target="_blank">
-									Project Repo
-								</a>
-								<a class="project-btn live-btn" href="https://malekadair.github.io/barhop/" target="_blank">
-									Live Project
-								</a>
-							</div>    
-						</div>
-					</section>
-<!-- Quiz App -->
+        <div class="project-container">
+          <!-- GottaLotto -->
+          <section class="content-container projects-content">
+            <div class="screenshots">
+              <img
+                class="screenshot"
+                src="assets/gottalotto-home.png"
+                alt="GottaLotto Homepage"
+              />
+              <img
+                class="screenshot"
+                src="assets/gottalotto-winners.png"
+                alt="Most recent GottaLotto winners."
+              />
+            </div>
+            <div class="project-stuff">
+              <h4>GottaLotto</h4>
+              <p>
+                Do you enjoy playing the lottery? GottaLotto allows you to make
+                guesses at the upcoming powerball for free!
+              </p>
+              <div class="project-btns">
+                <a
+                  class="project-btn repo-btn"
+                  href="https://github.com/gracebodur/gottalotto-client"
+                  target="_blank"
+                >
+                  Client Repo
+                </a>
+                <a
+                  class="project-btn repo-btn"
+                  href="https://github.com/gracebodur/gottalotto-api"
+                  target="_blank"
+                >
+                  Server Repo
+                </a>
+                <a
+                  class="project-btn live-btn"
+                  href="https://malekandgrace-gottalotto.now.sh/"
+                  target="_blank"
+                >
+                  Live Project
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- TournEase -->
+          <section class="content-container projects-content">
+            <div class="screenshots">
+              <img
+                class="screenshot"
+                src="assets/tournease.png"
+                alt="TournEase Tournament-List page"
+              />
+              <img
+                class="screenshot"
+                src="assets/tournease-create.png"
+                alt="Create Tournament Form"
+              />
+            </div>
+            <div class="project-stuff">
+              <h4>TournEase</h4>
+              <p>
+                Whether you're a tournament director or a player, TournEase
+                makes pool tournaments easier. Create and find tournaments in
+                one place.
+              </p>
+              <div class="project-btns">
+                <a
+                  class="project-btn repo-btn"
+                  href="https://github.com/malekadair/tournease-client"
+                  target="_blank"
+                >
+                  Client Repo
+                </a>
+                <a
+                  class="project-btn repo-btn"
+                  href="https://github.com/malekadair/tournease-server"
+                  target="_blank"
+                >
+                  Server Repo
+                </a>
+                <a
+                  class="project-btn live-btn"
+                  href="https://tournease-client.malekadair.now.sh/"
+                  target="_blank"
+                >
+                  Live Project
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- BarHop -->
+          <section class="content-container projects-content">
+            <div class="screenshots">
+              <img
+                class="screenshot"
+                src="assets/home.png"
+                alt="A screenshot of the Barhop's home screen."
+              />
+              <img
+                class="screenshot"
+                src="assets/results-mobile.png"
+                alt="A screenshot of the nearby bar results."
+              />
+            </div>
+            <div class="project-stuff">
+              <h4>Barhop</h4>
+              <p>
+                This app allows the user to easily locate and navigate to nearby
+                bars based on a specific price point. Results are displayed
+                based on distance (nearest to furthest) from user's coordinates.
+              </p>
+              <div class="project-btns">
+                <a
+                  class="project-btn repo-btn"
+                  href="https://github.com/malekadair/barhop.git"
+                  target="_blank"
+                >
+                  Project Repo
+                </a>
+                <a
+                  class="project-btn live-btn"
+                  href="https://malekadair.github.io/barhop/"
+                  target="_blank"
+                >
+                  Live Project
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- Quiz App -->
 
-					<section class="content-container projects-content">
-						<div class="screenshots"> 
-							<img class ="screenshot" src="assets/quiz-app1.png" alt="A screenshot of the Quiz App's start menu." >
-							<img class ="screenshot" src="assets/quiz-app2.png" alt="A screenshot of the feedback given to user upon answering questions." >
-						</div>   
-						<div class="project-stuff">
-							<h4>Quiz-App</h4>
-							<p>In this project, the user gets a chance to test their knowledge in the game of Billiards/Pool. This quiz takes them through a series of questions and grades their performance along the way.</p>
-							<div class="project-btns">
-								<a class="project-btn repo-btn" href="https://github.com/malekadair/quiz-app.git" target="_blank">
-									Project Repo
-								</a>
-								<a class="project-btn live-btn" href="https://malekadair.github.io/quiz-app/" target="_blank">
-									Live Project
-								</a>
-							</div>    
-						</div>
-					</section>
-			</section>
-			</section>
-		</div>
-	</main>
+          <section class="content-container projects-content">
+            <div class="screenshots">
+              <img
+                class="screenshot"
+                src="assets/quiz-app1.png"
+                alt="A screenshot of the Quiz App's start menu."
+              />
+              <img
+                class="screenshot"
+                src="assets/quiz-app2.png"
+                alt="A screenshot of the feedback given to user upon answering questions."
+              />
+            </div>
+            <div class="project-stuff">
+              <h4>Quiz-App</h4>
+              <p>
+                In this project, the user gets a chance to test their knowledge
+                in the game of Billiards/Pool. This quiz takes them through a
+                series of questions and grades their performance along the way.
+              </p>
+              <div class="project-btns">
+                <a
+                  class="project-btn repo-btn"
+                  href="https://github.com/malekadair/quiz-app.git"
+                  target="_blank"
+                >
+                  Project Repo
+                </a>
+                <a
+                  class="project-btn live-btn"
+                  href="https://malekadair.github.io/quiz-app/"
+                  target="_blank"
+                >
+                  Live Project
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
 
-	<div class="fade3"></div>
+    <div class="fade3"></div>
 
-	<footer>
-		<!-- GH, LI, and Mail Logos linking to appropriate pages -->
-		<h3 id="contact">Contact Me:</h3>
-		<section class="contact">
-			<a class="logo" href="https://github.com/malekadair" target="_blank">
-				<img class ="github-logo" src="assets/github-logo.png" alt="GitHub's Octo-Cat Logo." width="100" height="75">
-				<p>@malekadair</p>
-			</a>
-			<a class="logo" href="mailto:malekadair@gmail.com">
-				<img class ="mail-logo" src="assets/mail-logo.png" alt="Envelope/mail Logo." width="100" height="75">
-				<p>malekadair@gmail.com</p>
-			</a>
-			<a class="logo" href="https://www.linkedin.com/in/malekadair/" target="_blank">
-				<img class ="linkedin-logo" src="assets/linkedin-logo.png" alt="LinkedIn's Logo." width="75" height="75">
-				<p>@malekadair</p>
-			</a>
-		</section>
-		</footer>
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-	<script src="index.js"></script>
-</body>
+    <footer>
+      <!-- GH, LI, and Mail Logos linking to appropriate pages -->
+      <h3 id="contact">Contact Me:</h3>
+      <div class="contact">
+        <a class="logo" href="https://github.com/malekadair" target="_blank">
+          <img
+            class="github-logo"
+            src="assets/github-logo.png"
+            alt="GitHub's Octo-Cat Logo."
+            width="100"
+            height="75"
+          />
+          <p>@malekadair</p>
+        </a>
+        <a class="logo" href="mailto:malekadair@gmail.com">
+          <img
+            class="mail-logo"
+            src="assets/mail-logo.png"
+            alt="Envelope/mail Logo."
+            width="100"
+            height="75"
+          />
+          <p>malekadair@gmail.com</p>
+        </a>
+        <a
+          class="logo"
+          href="https://www.linkedin.com/in/malekadair/"
+          target="_blank"
+        >
+          <img
+            class="linkedin-logo"
+            src="assets/linkedin-logo.png"
+            alt="LinkedIn's Logo."
+            width="75"
+            height="75"
+          />
+          <p>@malekadair</p>
+        </a>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
