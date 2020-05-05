@@ -212,8 +212,13 @@ main {
 .projects-content {
   background-color: white;
   display: flex;
+  flex-direction: column;
   width: 350px;
   padding: 15px;
+}
+
+.techUsed {
+  text-align: center;
 }
 
 .screenshots {
@@ -245,7 +250,9 @@ main {
   flex: 1;
   margin: 5px;
 }
-
+.nonTech {
+  display: flex;
+}
 .project-btns {
   display: flex;
   flex-direction: column;
