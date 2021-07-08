@@ -178,6 +178,9 @@ main {
   color: #515c96;
 }
 
+#about h3 {
+    margin-top: 5rem;
+}
 .about {
   background-color: white;
   max-width: 800px;
@@ -191,6 +194,10 @@ main {
   padding: 30px;
   font-size: 25px;
   line-height: 35px;
+}
+
+#projects h3{
+    margin-top: 5rem;
 }
 .projects {
   background-color: rgba(81, 92, 150, 0.08);
